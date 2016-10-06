@@ -31,6 +31,10 @@ nav {
 .wrapper >.dfn {
   background-color: #b58900;
 }
-.strong >.dfn {
-  color: #fff;
+ p+strong {
+   color: #fff
+ }
+
+header nav ul li mark {
+  background-color: #719e07;
 }
